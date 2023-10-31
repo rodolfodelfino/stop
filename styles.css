@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 250px;
+}
+
+#letter-container {
+    font-size: 36px;
+    margin-right: 20px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#timer-container {
+    font-size: 24px;
+}
+
+#categories {
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    list-style: none;
+    text-align: left;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 200px;
+    padding-bottom: 10px;
+}
+
+#categories li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#score-container {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aliceblue;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+
+
+#scores {
+    list-style: none;
+    padding: 0;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 200px;
+}
+
+#scores li {
+    font-size: 18px;
+   
+}
