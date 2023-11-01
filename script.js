@@ -6,7 +6,7 @@ const letterElement = document.getElementById('letter');
 
         const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         let currentLetter = '';
-        let timer = 60;
+        let timer = 80;
         let intervalId;
         let scores = {};
 
@@ -30,7 +30,7 @@ const letterElement = document.getElementById('letter');
             startButton.disabled = true;
 
             // Reinicia o temporizador e define a função `stopGame` para ser chamada após o tempo
-            timer = 60;
+            timer = 80;
             updateTimer();
             intervalId = setInterval(updateTimer, 1000);
 
